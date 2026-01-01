@@ -1,0 +1,16 @@
+# Core Logic
+langchain
+langchain-openai
+langgraph
+pydantic
+python-dotenv
+
+# Data Analysis & Plotting
+pandas
+matplotlib
+seaborn
+scipy
+numpy
+
+# Utilities
+tqdm

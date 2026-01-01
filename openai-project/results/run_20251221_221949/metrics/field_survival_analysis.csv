@@ -1,0 +1,37 @@
+# Explanation of columns:
+# - field_name: The name of the data field from the report schema.
+# - duration: The generation number at which the field's value was lost (became null). If the field survived all generations, this is the total number of generations.
+# - event: A binary flag for survival analysis. 1 indicates the field was lost ('death' event occurred), 0 indicates the field survived to the end (data is 'censored').
+field_name,duration,event
+company_name,10,0
+contact_person_name,8,1
+contact_person_role,8,1
+contact_person_email,1,1
+contact_person_phone,1,1
+is_decision_maker,0,1
+industry,0,1
+address,0,1
+purpose_of_request,10,0
+lead_source,0,1
+worked_with_ur_before,10,0
+in_house_automation_resources_description,10,0
+in_house_team_skill_level,10,0
+installation_responsibility,1,1
+preferred_installation_timeline,6,1
+deployment_process_preference,10,0
+application_description,10,0
+application_criticality,5,1
+application_type_and_sub_type,0,1
+part_variety_description,10,0
+part_dimensions_description,10,0
+part_weight_description,10,0
+desired_throughput,3,1
+budget_for_project,10,0
+project_completion_timeline_ideal,1,1
+project_timeline_constraints,4,1
+key_decision_makers_description,10,0
+company_history_summary,10,0
+key_stakeholders_summary,0,1
+company_differentiation_summary,10,0
+primary_products_services_summary,10,0
+innovation_approach_summary,0,1

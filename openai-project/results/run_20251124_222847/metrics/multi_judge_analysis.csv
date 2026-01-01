@@ -1,0 +1,321 @@
+generation,field_name,score_gpt4o,error_type_gpt4o,explanation_gpt4o,score_llama3-70b,error_type_llama3-70b,explanation_llama3-70b
+0,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving the full semantic meaning.",5,faithful,"The candidate value is identical to the ground-truth value, preserving the exact same meaning."
+0,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,purpose_of_request,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,in_house_automation_resources_description,5,faithful,The candidate preserves the full meaning of the ground truth and adds relevant details about the team's skills without altering the original information.,5,faithful,"The candidate value is almost identical to the ground truth, with only minor additional details that do not alter the original meaning."
+0,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,preferred_installation_timeline,5,faithful,"The candidate maintains the same timeline as the ground truth, with additional detail about an ideal scenario, but no change in the core meaning.",5,faithful,"The candidate value is a paraphrased version of the ground truth, preserving the same meaning and adding a slight detail about the first station."
+0,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,application_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,key_decision_makers_description,4,mostly_faithful,The candidate accurately describes the decision-making roles but adds an unnecessary detail about the lead assembly line operator.,4,faithful,"The candidate mostly preserves the original meaning, with a minor rephrasing and an additional detail about the lead assembly line operator."
+0,company_history_summary,5,faithful,The candidate retains the full semantic meaning of the ground truth and adds additional relevant information without altering the original message.,5,faithful,"The candidate value is a verbatim copy of the ground truth with additional relevant information, preserving the original meaning perfectly."
+0,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,company_differentiation_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,primary_products_services_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+0,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving full semantic fidelity.",5,faithful,"The candidate value is identical to the ground-truth value, preserving the exact same meaning."
+1,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,purpose_of_request,3,vague,The candidate captures the goal of improving production speed but omits the specific concern about reducing repetitive strain injuries.,3,overly_general,"The candidate value preserves the general idea of improving production speed but omits the specific context of the assembly line and repetitive strain injuries, making it partially faithful."
+1,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,preferred_installation_timeline,5,faithful,"The candidate maintains the same meaning as the ground truth, specifying a preference for installation within 6 months and adding a detail about an ideal timeline for the first station.",5,faithful,"The candidate value is a paraphrased version of the ground truth, preserving the same meaning and adding a slight detail about the first station."
+1,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,application_description,2,vague,The candidate is loosely related to the ground truth but lacks specific details about the pick-and-place application and the context of moving electronic components.,2,vague,"The candidate value is weakly related to the ground truth, as it only mentions general manufacturing processes without specifying the pick-and-place application or the widget assembly line."
+1,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,key_decision_makers_description,4,mostly_faithful,"The candidate accurately describes the roles of the primary decision-maker and the Director of Operations, but adds extra information about the lead assembly line operator that is not present in the ground truth.",4,faithful,"The candidate mostly preserves the original meaning, but adds a minor detail about the lead assembly line operator, which is not present in the ground truth."
+1,company_history_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,company_differentiation_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+1,primary_products_services_summary,3,overly_general,"The candidate captures the general idea of high-end products but lacks specific details about wireless audio equipment, headphones, and speakers.",3,vague,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+1,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,company_name,5,faithful,"The candidate value is fully faithful to the ground truth, with only a minor punctuation difference.",5,faithful,"The candidate value is an exact match to the ground-truth value, preserving the same meaning and wording."
+2,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,purpose_of_request,3,vague,The candidate captures the goal of improving production speed but omits the specific concern about reducing repetitive strain injuries and introduces new elements about precise manufacturing and high-end electronics.,3,overly_general,"The candidate value preserves the general idea of improving production speed but omits the specific context of the assembly line and repetitive strain injuries, making it partially faithful."
+2,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,application_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,key_decision_makers_description,3,partially_faithful,The candidate preserves the main roles of the decision-makers but adds an unrelated role and changes the perspective from first to third person.,4,faithful,"The candidate mostly preserves the original meaning, with minor rephrasing and a small additional detail about the lead assembly line operator."
+2,company_history_summary,0,no_information,"The candidate provides no information about the company's history, failing to convey any of the ground truth details.",0,omitted,"The candidate value does not provide any information about the company's history, failing to address the field altogether."
+2,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,company_differentiation_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+2,primary_products_services_summary,3,overly_general,"The candidate captures the general idea of high-end electronics but lacks specific details about wireless audio equipment, headphones, and speakers.",3,overly_general,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+2,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,company_name,5,faithful,"The candidate value is fully faithful to the ground truth, with only a minor punctuation difference.",5,faithful,"The candidate value is an exact match to the ground-truth value, preserving the same meaning and wording."
+3,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,purpose_of_request,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,application_description,2,vague,The candidate is loosely related to the ground truth but lacks specific details about the pick-and-place application and the movement of electronic components.,3,vague,"The candidate value preserves the general idea of the application being related to manufacturing and electronics, but omits specific details about the pick-and-place process and widget assembly line."
+3,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,key_decision_makers_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,company_history_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,company_differentiation_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+3,primary_products_services_summary,3,overly_general,"The candidate captures the general idea of high-end electronics but lacks specific details about wireless audio equipment, headphones, and speakers.",3,overly_general,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+3,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving full semantic fidelity.",5,faithful,"The candidate value is identical to the ground-truth value, preserving the exact same meaning."
+4,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,purpose_of_request,3,vague,The candidate captures the goal of improving production speed but omits the aspect of reducing repetitive strain injuries and introduces new details about targeting precise manufacturing processes and high-end consumer electronics.,4,overly_general,"The candidate mostly preserves the main idea of improving production speed, but omits the specific concern about repetitive strain injuries and adds unnecessary details about high-end consumer electronics."
+4,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,application_description,2,vague,The candidate is loosely related to the ground truth by mentioning manufacturing but lacks specific details about the pick-and-place application and the context of the widget assembly line.,3,vague,"The candidate value preserves the general idea of the application being related to manufacturing and electronics, but omits specific details about the pick-and-place process and widget assembly line."
+4,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,key_decision_makers_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,company_history_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,company_differentiation_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+4,primary_products_services_summary,4,overly_general,"The candidate captures the main idea of producing high-end electronics but lacks specific mention of wireless audio equipment, headphones, and speakers.",3,overly_general,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+4,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving the full semantic meaning.",5,faithful,"The candidate value is identical to the ground-truth value, preserving the exact same meaning and wording."
+5,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,purpose_of_request,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,application_description,2,weakly_related,"The candidate mentions improving production speed and efficiency in manufacturing, which is loosely related to the ground truth's focus on pick-and-place for widget assembly, but lacks specific details about the application and components involved.",3,vague,"The candidate value preserves the general idea of improving production efficiency in electronics manufacturing, but omits specific details about the pick-and-place application and widget assembly line."
+5,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,key_decision_makers_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,company_history_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,company_differentiation_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+5,primary_products_services_summary,3,overly_general,"The candidate captures the general idea of high-end electronics but lacks specific details about wireless audio equipment, headphones, and speakers.",3,overly_general,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+5,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving the full semantic meaning.",5,faithful,"The candidate value is identical to the ground-truth value, preserving the exact same meaning."
+6,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,purpose_of_request,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,application_description,2,weakly_related,The candidate is loosely related to the ground truth by mentioning manufacturing processes but lacks specific details about the pick-and-place application and electronic components.,3,vague,"The candidate value preserves the general idea of improving production efficiency in electronics manufacturing, but omits specific details about the pick-and-place application and widget assembly line."
+6,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,key_decision_makers_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,company_history_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,company_differentiation_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+6,primary_products_services_summary,3,overly_general,"The candidate captures the general idea of producing high-end electronics but lacks specific details about wireless audio equipment, headphones, and speakers.",3,vague,"The candidate value preserves the general idea of the company's industry but omits specific details about the products, making it partially faithful."
+6,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving the full semantic meaning.",5,faithful,"The candidate value is identical to the ground-truth value, preserving the exact same meaning."
+7,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,purpose_of_request,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,application_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,application_criticality,3,vague,"The candidate mentions the importance of production speed and efficiency, which relates to criticality, but lacks the specific detail about the assembly line being a bottleneck.",4,vague,The candidate value conveys the importance of the assembly line but omits the specific detail about being a bottleneck for the entire production process.
+7,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,key_decision_makers_description,1,contradictory,"The candidate incorrectly states a lack of information about decision makers, contradicting the detailed roles provided in the ground truth.",0,omitted,"The candidate value does not provide any information about the key decision makers, whereas the ground truth provides specific details."
+7,company_history_summary,0,omitted,"The candidate provides no information about the company's history, failing to convey any of the ground truth details.",0,omitted,"The candidate value does not provide any information about the company's history, failing to address the field."
+7,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+7,company_differentiation_summary,3,partially_faithful,"The candidate mentions precise manufacturing and quality products but shifts focus to production speed and efficiency, missing the emphasis on durability as the key differentiator.",4,overly_general,"The candidate mostly preserves the main idea of the ground truth, but omits the specific emphasis on 'high-quality, durable product design' and instead focuses on 'top-quality products'."
+7,primary_products_services_summary,4,overly_general,"The candidate captures the main idea of producing high-end electronics but lacks specific details about wireless audio equipment, headphones, and speakers.",3,overly_general,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+7,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving the full semantic meaning.",5,faithful,"The candidate value is an exact match to the ground-truth value, preserving the same meaning and wording."
+8,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,purpose_of_request,3,vague,The candidate captures the goal of enhancing production speed but omits the specific concern about reducing repetitive strain injuries.,4,overly_general,The candidate preserves the main idea of improving production speed but omits the specific context of the assembly line and repetitive strain injuries.
+8,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,application_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,key_decision_makers_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,company_history_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+8,company_differentiation_summary,3,vague,The candidate captures the general idea of high-quality products but omits the specific details about durable design and precise manufacturing processes.,4,overly_general,The candidate preserves the main idea of product quality but omits the specific details about durable design and precise manufacturing processes.
+8,primary_products_services_summary,3,overly_general,"The candidate captures the general idea of high-end electronics but lacks specific details about wireless audio equipment, headphones, and speakers.",3,overly_general,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+8,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,company_name,5,faithful,"The candidate value is identical to the ground-truth value, preserving full semantic fidelity.",5,faithful,"The candidate value is an exact match to the ground-truth value, preserving the same meaning and wording."
+9,contact_person_name,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,contact_person_role,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,contact_person_email,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,contact_person_phone,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,is_decision_maker,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,industry,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,address,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,purpose_of_request,3,omitted,The candidate captures the need to enhance production speed but omits the concern about reducing repetitive strain injuries.,4,overly_general,The candidate preserves the main idea of improving production speed but omits the specific concern about repetitive strain injuries and adds an unnecessary detail about high-end consumer electronics.
+9,lead_source,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,worked_with_ur_before,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,in_house_automation_resources_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,in_house_team_skill_level,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,installation_responsibility,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,preferred_installation_timeline,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,deployment_process_preference,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,application_description,0,omitted,"The candidate provides no information about the pick-and-place application or the movement of electronic components, failing to address the ground truth entirely.",0,omitted,"The candidate value does not provide any information about the application description, failing to address the field altogether."
+9,application_criticality,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,application_type_and_sub_type,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,part_variety_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,part_dimensions_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,part_weight_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,desired_throughput,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,budget_for_project,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,project_completion_timeline_ideal,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,project_timeline_constraints,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,key_decision_makers_description,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,company_history_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,key_stakeholders_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.
+9,company_differentiation_summary,4,mostly_faithful,The candidate captures the main idea of high-quality products but omits the emphasis on durable design and precise manufacturing processes.,4,vague,The candidate preserves the main idea of product quality but omits the specific details about manufacturing processes and durability.
+9,primary_products_services_summary,3,overly_general,"The candidate captures the general idea of high-end electronics but lacks specific details about wireless audio equipment, headphones, and speakers.",3,overly_general,The candidate value preserves the general idea of the company's products but omits specific details about wireless audio equipment and examples of products.
+9,innovation_approach_summary,0,omitted,The field was empty or null.,0,omitted,The field was empty or null.

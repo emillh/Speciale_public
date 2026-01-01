@@ -1,0 +1,4 @@
+metric,judge_1,judge_2,value
+Agreement Rate,gpt4o,llama3-70b,0.85
+Cohen's Kappa,gpt4o,llama3-70b,0.7762889600932129
+Pearson Correlation,gpt4o,llama3-70b,0.9734620401322525

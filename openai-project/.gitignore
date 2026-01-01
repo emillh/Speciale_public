@@ -1,0 +1,19 @@
+# Security: Never commit API keys
+.env
+
+# Python / Environment
+__pycache__/
+*.pyc
+.conda/
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
